@@ -1,0 +1,426 @@
+{
+  "schema_version": "rudeus_evidence_bundle_v1",
+  "prepared_on": "2026-10-17",
+  "team": "Rudeus",
+  "scope": "Step-436 selected VinAI system; historical best60 evidence is labeled separately.",
+  "included_original_files": 38,
+  "omitted_text_bearing_or_duplicate_files": 12,
+  "files": [
+    {
+      "id": "data_split",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/data/merged_public40_split_v1.json",
+      "bytes": 50370,
+      "sha256": "508fb234492fbf5ab3714426d952320ed8de838bab3ac1d8aec39036952c0c34"
+    },
+    {
+      "id": "original_split",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/data/training_data_manifest.json",
+      "bytes": 23460,
+      "sha256": "d1bfc5683c2d8c0b4381db980dd39d7e702b07682c9caa8eaa79690c6391929c"
+    },
+    {
+      "id": "alignment_model",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/data/merged_preparation/prepared/alignment_model.json",
+      "bytes": 183,
+      "sha256": "abc8b39bbdc7f4fc8adc9a67e62fb7d400c447d1a77a9c7c82710f51da916ce2"
+    },
+    {
+      "id": "prepared_training_audit",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/logs/training/cloud/vinai-chunk876-from60-d6738e41/prepared/audit.json",
+      "bytes": 68623,
+      "sha256": "cbdd900ffb7022523662cc938aba36d5ffb5743d5c27ef2024402a9525098782"
+    },
+    {
+      "id": "checkpoint_selection_report",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/logs/selection/cloud/vinai-select-val10-52a8a667/checkpoint_selection_report.json",
+      "bytes": 2172,
+      "sha256": "554ba2416fde465f2edf03a03e537c565ff9cfe74104f9cfd9f80c710484741d"
+    },
+    {
+      "id": "selection_plan",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/logs/selection/cloud/vinai-select-val10-52a8a667/selection_plan.json",
+      "bytes": 2799,
+      "sha256": "feb11f70e24ee3536db5e0a2f5d876cb6d4d5bd928313956b2ed3acc921cee92"
+    },
+    {
+      "id": "document_diagnostics",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/logs/selection/cloud/vinai-select-val10-52a8a667/selected_document_diagnostics.json",
+      "bytes": 9935,
+      "sha256": "43afa0461e3ca926be407fae9fef85fb551d84b93c1bc860e03196030fd736e4"
+    },
+    {
+      "id": "original_formatting_audit",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/logs/selection/cloud/vinai-select-val10-52a8a667/private_formatted/formatting_audit.json",
+      "bytes": 207632,
+      "sha256": "098919cb77cbd828a344380bdfbca14b16950be08885eb47bd5c42d159ff3aa4"
+    },
+    {
+      "id": "private_inference_summary",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/logs/selection/cloud/vinai-select-val10-52a8a667/private_chunk/result.json",
+      "bytes": 90162,
+      "sha256": "8176ffc2fd833499223bc278e27147a0aaa3d5866d2b21706e28b6b916e141fc"
+    },
+    {
+      "id": "prepared_private_chunks",
+      "status": "not_included",
+      "original": {
+        "reference_root": "02_VinAI_Checkpoint436_Merged876",
+        "relative_path": "logs/selection_extra/cloud/vinai-select-val10-52a8a667/prepared_private_chunk.json",
+        "bytes": 11748621,
+        "sha256": "2df507922ab8695c7d95bc676a30a27a150fe6740a5e7f446ac29b41a97d162b",
+        "included_in_evidence": false,
+        "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+      }
+    },
+    {
+      "id": "prepared_validation_chunks",
+      "status": "not_included",
+      "original": {
+        "reference_root": "02_VinAI_Checkpoint436_Merged876",
+        "relative_path": "logs/selection_extra/cloud/vinai-select-val10-52a8a667/prepared_validation_chunk.json",
+        "bytes": 2584315,
+        "sha256": "c2f796581fe56e1f9fc0c8da6815b814d84bbbd901fe682f288dcc90b1501e32",
+        "included_in_evidence": false,
+        "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+      }
+    },
+    {
+      "id": "raw_private_csv",
+      "status": "not_included",
+      "original": {
+        "reference_root": "02_VinAI_Checkpoint436_Merged876",
+        "relative_path": "history/raw_private/raw_chunk_results.csv",
+        "bytes": 5405115,
+        "sha256": "5036ac8c7fc0607ec0e1b23f92d94068f3246fb13ec451c05d4bf8a2f559cf51",
+        "included_in_evidence": false,
+        "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+      }
+    },
+    {
+      "id": "private_source_csv",
+      "status": "not_included",
+      "original": {
+        "reference_root": "02_VinAI_Checkpoint436_Merged876",
+        "relative_path": "data/private_test_input.csv",
+        "bytes": 5668795,
+        "sha256": "c54f69f997aff2d7d2f1b864fee7fd448257a6f17f6c90b30f209d811f7fd438",
+        "included_in_evidence": false,
+        "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+      }
+    },
+    {
+      "id": "qwen_layout_reference",
+      "status": "not_included",
+      "original": {
+        "reference_root": "02_VinAI_Checkpoint436_Merged876",
+        "relative_path": "formatting_reference/qwen17_layout_reference.csv",
+        "bytes": 5476442,
+        "sha256": "aaf31673c2952a2e029343e279b668ee9c3fecbef2f71004dedfef52a42f59cd",
+        "included_in_evidence": false,
+        "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+      }
+    },
+    {
+      "id": "final_private_csv",
+      "status": "not_included",
+      "original": {
+        "reference_root": "02_VinAI_Checkpoint436_Merged876",
+        "relative_path": "submission/results.csv",
+        "bytes": 5596835,
+        "sha256": "e15f580d24b3c04bd9eec590c6fa692af34e29639da0f925c6485c264e45b06c",
+        "included_in_evidence": false,
+        "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+      }
+    },
+    {
+      "id": "final_private_zip",
+      "status": "not_included",
+      "original": {
+        "reference_root": "02_VinAI_Checkpoint436_Merged876",
+        "relative_path": "submission/vinai_private_submission.zip",
+        "bytes": 1017854,
+        "sha256": "1dfdac3338e8a03d99ba659877b0189244ae8a7e8ad13ae16a70487080fa2a55",
+        "included_in_evidence": false,
+        "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+      }
+    },
+    {
+      "id": "public50_historical_scores",
+      "status": "included_byte_identical",
+      "path": "01_VinAI_Best60_Public50/logs/cloud/vinai-public-retry-2286028317/public_resume/result.json",
+      "bytes": 87143,
+      "sha256": "2d29ca6490c8c06f8217cfa404b9cb7ca2f4935f407380a1fcc473b12b1bfad9"
+    },
+    {
+      "id": "docker_model_manifest",
+      "status": "included_byte_identical",
+      "path": "Rudeus_Docker/models/manifest.json",
+      "bytes": 2267,
+      "sha256": "f2ced51f7e27d20d8f7affa0e32ba88b9da899fefda166e71b19ea0e38fbcc18"
+    },
+    {
+      "id": "source_prepare_merged_training.py",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/source_code/vinai_modal/prepare_merged_training.py",
+      "bytes": 6902,
+      "sha256": "62ac42a5d319194473afc2e2a119438def077de69bc54983b57b8953e91522aa"
+    },
+    {
+      "id": "source_prepare_training.py",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/source_code/vinai_modal/prepare_training.py",
+      "bytes": 5507,
+      "sha256": "519d32112e19d6fbbc070a914a439289b8cd6b9df2d71836b3d30974c90ace39"
+    },
+    {
+      "id": "source_legal_alignment_core.py",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/source_code/vinai_modal/legal_alignment_core.py",
+      "bytes": 24530,
+      "sha256": "e4c6fa9ff871379724869d47ef5b3e9a41ed69cb3b24360a8f9a9df64ea9c332"
+    },
+    {
+      "id": "source_train.py",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/source_code/vinai_modal/train.py",
+      "bytes": 6502,
+      "sha256": "1bfa3581ad766ded90255540752110acd41a2225695a9a00abadf45f2cd3cae4"
+    },
+    {
+      "id": "source_chunk876_app.py",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/source_code/vinai_modal/chunk876_app.py",
+      "bytes": 9669,
+      "sha256": "32a4c67bd6658bb03f390ba94b2b80f8640a365de67d9a93253a472a5e19d3f6"
+    },
+    {
+      "id": "source_prepare_chunk_eval.py",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/source_code/vinai_modal/prepare_chunk_eval.py",
+      "bytes": 3222,
+      "sha256": "a73a3ec92288d03858679d6fed9b2dd982e0956c10f339db155a3bfe1e95b738"
+    },
+    {
+      "id": "source_public_worker.py",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/source_code/vinai_modal/public_worker.py",
+      "bytes": 14009,
+      "sha256": "5f91f764b1ac43cc414fc2b5cae38dd56bc7e9d5fad8097dfd868279fa2963f4"
+    },
+    {
+      "id": "source_chunk_safety_v2.py",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/source_code/vinai_modal/chunk_safety_v2.py",
+      "bytes": 4755,
+      "sha256": "8f8825219c07725fc606586b49e7923c440b4c8131899e002c1f038faa36cd3b"
+    },
+    {
+      "id": "source_checkpoint_selection.py",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/source_code/vinai_modal/checkpoint_selection.py",
+      "bytes": 8220,
+      "sha256": "d544250ecc3b90207352d0c87ba0d9668453dc2f4b37c0f5f43e30ddc21db464"
+    },
+    {
+      "id": "source_postformat_chunk_private.py",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/source_code/vinai_modal/postformat_chunk_private.py",
+      "bytes": 3018,
+      "sha256": "193eeb6b7b426e310aadc581a7cd192c9c7d5ca97c22c897c3dba85cfd4d8caf"
+    },
+    {
+      "id": "source_restore_from_qwen_layout.py",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/source_code/vinai_modal/restore_from_qwen_layout.py",
+      "bytes": 12363,
+      "sha256": "e319a3730ac4225dcfb871bae91f7642583c2b8962d20acc8b699ef665e39ff4"
+    },
+    {
+      "id": "merged_train_plan_en-vi",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/logs/training/cloud/vinai-chunk876-from60-d6738e41/training/en-vi/train_plan.json",
+      "bytes": 495,
+      "sha256": "d94735dde6e464ab275de630769f89f0c28661bb5bb65ec398a73c66a0594796"
+    },
+    {
+      "id": "selected_trainer_state_en-vi",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/logs/training/cloud/vinai-chunk876-from60-d6738e41/training/en-vi/checkpoint-436/trainer_state.json",
+      "bytes": 4673,
+      "sha256": "f61392c02ed01e41422dfc443652ecbc61b8fb2bb4560afe65cedb0d9ad497d3"
+    },
+    {
+      "id": "training_plan_en-vi",
+      "status": "included_byte_identical",
+      "path": "01_VinAI_Best60_Public50/logs/cloud/training/en-vi/train_plan.json",
+      "bytes": 373,
+      "sha256": "3363c22728689a51b89aa297ea06aea6955e199242bb9065be94a890477ae861"
+    },
+    {
+      "id": "training_refine_v1_plan_en-vi",
+      "status": "included_byte_identical",
+      "path": "01_VinAI_Best60_Public50/logs/cloud/training_refine_v1/en-vi/train_plan.json",
+      "bytes": 485,
+      "sha256": "07525d99b0214f0f2ce38ed2f8c83a1368a831cd67d62e3a190ce984cb040939"
+    },
+    {
+      "id": "merged_train_plan_vi-en",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/logs/training/cloud/vinai-chunk876-from60-d6738e41/training/vi-en/train_plan.json",
+      "bytes": 495,
+      "sha256": "c4633c0657e1cdeb9546cd18249b0c698eb81493eb32e1a578707460f225a900"
+    },
+    {
+      "id": "selected_trainer_state_vi-en",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/logs/training/cloud/vinai-chunk876-from60-d6738e41/training/vi-en/checkpoint-436/trainer_state.json",
+      "bytes": 4671,
+      "sha256": "13dae128cf533d67310b96c286f14c5fddf108b0cd21abd9673f64b54c03212b"
+    },
+    {
+      "id": "training_plan_vi-en",
+      "status": "included_byte_identical",
+      "path": "01_VinAI_Best60_Public50/logs/cloud/training/vi-en/train_plan.json",
+      "bytes": 373,
+      "sha256": "4aaa5398034160290391d1bab2ee117bbc9a33907973f7bd4d8ae8ef2769578d"
+    },
+    {
+      "id": "training_refine_v1_plan_vi-en",
+      "status": "included_byte_identical",
+      "path": "01_VinAI_Best60_Public50/logs/cloud/training_refine_v1/vi-en/train_plan.json",
+      "bytes": 485,
+      "sha256": "6c3f52b9ab29f8b9b439026f5ca3ab806eb0763fd4a6551f193a75b6f525f575"
+    },
+    {
+      "id": "validation_predictions_best60",
+      "status": "not_included",
+      "original": {
+        "reference_root": "02_VinAI_Checkpoint436_Merged876",
+        "relative_path": "logs/selection/cloud/vinai-select-val10-52a8a667/candidates/best60/translations.json",
+        "bytes": 776965,
+        "sha256": "dcb6826511097b2e13f673041f30d9ee2d76eec0f828eb709ab9229aa80d404f",
+        "included_in_evidence": false,
+        "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+      }
+    },
+    {
+      "id": "validation_predictions_checkpoint327",
+      "status": "not_included",
+      "original": {
+        "reference_root": "02_VinAI_Checkpoint436_Merged876",
+        "relative_path": "logs/selection/cloud/vinai-select-val10-52a8a667/candidates/checkpoint327/translations.json",
+        "bytes": 775076,
+        "sha256": "6066316b1e6d6c9915f39d6c1386e74deeabf3e3d968cf2f0ae2ed3fda4c8001",
+        "included_in_evidence": false,
+        "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+      }
+    },
+    {
+      "id": "validation_predictions_checkpoint436",
+      "status": "not_included",
+      "original": {
+        "reference_root": "02_VinAI_Checkpoint436_Merged876",
+        "relative_path": "logs/selection/cloud/vinai-select-val10-52a8a667/candidates/checkpoint436/translations.json",
+        "bytes": 775372,
+        "sha256": "36f699a52fe834e53417e33f2df3a1b3a4f88ed9b237c09d78a6c5222273e38b",
+        "included_in_evidence": false,
+        "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+      }
+    },
+    {
+      "id": "validation_predictions_checkpoint437",
+      "status": "not_included",
+      "original": {
+        "reference_root": "02_VinAI_Checkpoint436_Merged876",
+        "relative_path": "logs/selection/cloud/vinai-select-val10-52a8a667/candidates/checkpoint437/translations.json",
+        "bytes": 777434,
+        "sha256": "7fd6a9d01287fca9052074df2c71af11acb86f1aa0d2dad60b6cf611ca3cf6ab",
+        "included_in_evidence": false,
+        "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+      }
+    },
+    {
+      "id": "validation_predictions_final876",
+      "status": "not_included",
+      "original": {
+        "reference_root": "02_VinAI_Checkpoint436_Merged876",
+        "relative_path": "logs/selection/cloud/vinai-select-val10-52a8a667/candidates/final876/translations.json",
+        "bytes": 777434,
+        "sha256": "7fd6a9d01287fca9052074df2c71af11acb86f1aa0d2dad60b6cf611ca3cf6ab",
+        "included_in_evidence": false,
+        "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+      }
+    },
+    {
+      "id": "extra_logs/training/cloud/vinai-chunk876-from60-d6738e41/training/en-vi/checkpoint-436/config.json",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/logs/training/cloud/vinai-chunk876-from60-d6738e41/training/en-vi/checkpoint-436/config.json",
+      "bytes": 1428,
+      "sha256": "4dd71a22047ac8c17ae21e8480438881e7ba4bd8ce2925af34dc184900466040"
+    },
+    {
+      "id": "extra_logs/training/cloud/vinai-chunk876-from60-d6738e41/training/en-vi/complete.json",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/logs/training/cloud/vinai-chunk876-from60-d6738e41/training/en-vi/complete.json",
+      "bytes": 491,
+      "sha256": "7c843de4fe50c5976f22ef2b6c601cff4a961402581afaefa5e62385f1bfc68c"
+    },
+    {
+      "id": "extra_logs/training/cloud/vinai-chunk876-from60-d6738e41/training/vi-en/checkpoint-436/config.json",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/logs/training/cloud/vinai-chunk876-from60-d6738e41/training/vi-en/checkpoint-436/config.json",
+      "bytes": 1428,
+      "sha256": "2230dc162d94418c4cc5c9bf1972b55e78fdd5f15a20e79a1863972293c3a874"
+    },
+    {
+      "id": "extra_logs/training/cloud/vinai-chunk876-from60-d6738e41/training/vi-en/complete.json",
+      "status": "included_byte_identical",
+      "path": "02_VinAI_Checkpoint436_Merged876/logs/training/cloud/vinai-chunk876-from60-d6738e41/training/vi-en/complete.json",
+      "bytes": 491,
+      "sha256": "42d913b118be9ef485421cba1e84b28168a7d794df6ad401a7d52a39c0920d52"
+    },
+    {
+      "id": "extra_logs/cloud/training/en-vi/complete.json",
+      "status": "included_byte_identical",
+      "path": "01_VinAI_Best60_Public50/logs/cloud/training/en-vi/complete.json",
+      "bytes": 373,
+      "sha256": "9866c49963e6077b33cb33a6c44eac26c51fda7d58a27addd92e168d5710daf3"
+    },
+    {
+      "id": "extra_logs/cloud/training/vi-en/complete.json",
+      "status": "included_byte_identical",
+      "path": "01_VinAI_Best60_Public50/logs/cloud/training/vi-en/complete.json",
+      "bytes": 373,
+      "sha256": "27deb21684634d9ccd7c9d228dcfb2ee7677f78930ba3bffa5809152e91b484b"
+    },
+    {
+      "id": "extra_logs/cloud/training_refine_v1/en-vi/complete.json",
+      "status": "included_byte_identical",
+      "path": "01_VinAI_Best60_Public50/logs/cloud/training_refine_v1/en-vi/complete.json",
+      "bytes": 481,
+      "sha256": "3691e07e952aed90c21a2ce73bda1daa11294c82298388ecc437ef8d15cbd253"
+    },
+    {
+      "id": "extra_logs/cloud/training_refine_v1/vi-en/complete.json",
+      "status": "included_byte_identical",
+      "path": "01_VinAI_Best60_Public50/logs/cloud/training_refine_v1/vi-en/complete.json",
+      "bytes": 481,
+      "sha256": "dbee58dbfb348c6752dab49e55f929c03d75e5e75708b78d0fecc98d09559e4d"
+    }
+  ],
+  "derived_reports": [
+    {
+      "path": "Independent_Recheck.json",
+      "sha256": "6065a8d2e346be400f97548f8e090fad74813a6370451a63a68b8d6f58db7d6b"
+    }
+  ]
+}

@@ -1,0 +1,3522 @@
+{
+  "train_documents": 876,
+  "validation_documents": 10,
+  "origin_counts": {
+    "original_train": 793,
+    "former_validation": 43,
+    "public_train": 40
+  },
+  "chunks_per_direction": 55818,
+  "rejected_over_1024": 0,
+  "documents_with_chunks": 876,
+  "split_sha": "508fb234492fbf5ab3714426d952320ed8de838bab3ac1d8aec39036952c0c34",
+  "alignment_sha": "db286e91660be81a0fb8e961ea871b8e019bd6bd9e415940307c95114b66ef45",
+  "private_never_train": true,
+  "coverage_is_not_precision": true,
+  "documents": [
+    {
+      "id": "Bat_dong_san/1",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/10",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/104",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/107",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/11",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/111",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/112",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/113",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/114",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/123",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/124",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/128",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/13",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/130",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/131",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/132",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/133",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/134",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/135",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/136",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/137",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/138",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/139",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/14",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/140",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/141",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/142",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/143",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/147",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/149",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/150",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/152",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/153",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/154",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/155",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/156",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/17",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/18",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/2",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/20",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/21",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/22",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/23",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/25",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/28",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/29",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/3",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/33",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/35",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/38",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/39",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/4",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/40",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/41",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/42",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/43",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/45",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/46",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/48",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/49",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/5",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/51",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/54",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/57",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/59",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/6",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/7",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/72",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/73",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/74",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/76",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/77",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/8",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/81",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/82",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/85",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/87",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/89",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/9",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/91",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/92",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Bat_dong_san/95",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/1",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/102",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/104",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/105",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/11",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/111",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/115",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/117",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/12",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/123",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/124",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/125",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/126",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/127",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/128",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/13",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/130",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/131",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/132",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/134",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/136",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/137",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/139",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/14",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/15",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/19",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/20",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/21",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/22",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/23",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/24",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/25",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/26",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/27",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/29",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/3",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/30",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/32",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/34",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/35",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/39",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/4",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/41",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/44",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/45",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/46",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/50",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/52",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/54",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/56",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/57",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/58",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/59",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/60",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/63",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/64",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/65",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/66",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/67",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/68",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/69",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/7",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/70",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/73",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/74",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/76",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/77",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/78",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/79",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/80",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/81",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/82",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/83",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/84",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/85",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/88",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/90",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/91",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/94",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/97",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/98",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Dich_vu_phap_ly/99",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/103",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/104",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/105",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/106",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/107",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/108",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/109",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/110",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/111",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/112",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/114",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/117",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/118",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/119",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/120",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/122",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/123",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/127",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/128",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/13",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/133",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/134",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/135",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/138",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/139",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/14",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/140",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/143",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/15",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/151",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/152",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/153",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/155",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/157",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/159",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/161",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/162",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/164",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/167",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/168",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/169",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/170",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/173",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/174",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/175",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/176",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/181",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/183",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/185",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/19",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/191",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/195",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/197",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/199",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/200",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/202",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/204",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/206",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/207",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/212",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/213",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/214",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/215",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/216",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/217",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/220",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/224",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/225",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/226",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/228",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/230",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/233",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/235",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/236",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/238",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/24",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/243",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/246",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/247",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/25",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/253",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/255",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/257",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/258",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/26",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/260",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/262",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/263",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/264",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/265",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/266",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/268",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/27",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/270",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/271",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/275",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/276",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/278",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/28",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/284",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/287",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/291",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/296",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/299",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/30",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/302",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/303",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/305",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/307",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/308",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/31",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/311",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/313",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/314",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/317",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/319",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/32",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/320",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/322",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/325",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/328",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/329",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/33",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/330",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/333",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/334",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/335",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/336",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/337",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/338",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/34",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/341",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/346",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/347",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/35",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/350",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/352",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/354",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/360",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/364",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/365",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/366",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/369",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/37",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/372",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/373",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/374",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/377",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/383",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/386",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/387",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/388",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/390",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/391",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/392",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/393",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/395",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/400",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/401",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/403",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/408",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/41",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/415",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/418",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/42",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/423",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/426",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/428",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/429",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/43",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/436",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/437",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/438",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/440",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/443",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/450",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/452",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/456",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/457",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/459",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/46",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/460",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/47",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/48",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/5",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/50",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/52",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/54",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/55",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/56",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/6",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/61",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/67",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/68",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/75",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/78",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/81",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/82",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/89",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/9",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/90",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/92",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/93",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/97",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Quyen_dan_su/98",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/10",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/101",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/102",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/103",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/104",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/106",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/108",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/111",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/114",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/115",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/116",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/117",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/118",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/120",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/121",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/122",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/124",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/13",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/130",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/133",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/134",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/139",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/140",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/141",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/142",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/144",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/145",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/146",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/148",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/15",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/156",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/161",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/162",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/164",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/167",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/168",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/17",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/170",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/171",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/172",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/173",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/174",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/175",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/179",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/182",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/185",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/19",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/21",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/22",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/23",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/24",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/25",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/3",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/31",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/33",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/34",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/35",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/36",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/37",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/41",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/44",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/46",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/47",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/48",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/51",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/52",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/56",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/57",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/58",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/6",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/60",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/63",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/64",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/68",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/69",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/7",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/70",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/71",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/72",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/73",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/76",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/77",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/78",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/79",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/80",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/82",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/83",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/84",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/85",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/86",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/88",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/91",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/92",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/93",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/94",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "So_huu_tri_tue/98",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/100",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/105",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/107",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/109",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/111",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/117",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/120",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/136",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/139",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/141",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/145",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/15",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/152",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/153",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/158",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/159",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/160",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/163",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/164",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/167",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/170",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/172",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/173",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/18",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/181",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/187",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/19",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/190",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/192",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/193",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/194",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/197",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/199",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/201",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/202",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/207",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/208",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/209",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/215",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/22",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/222",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/228",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/246",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/249",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/25",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/26",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/270",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/28",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/280",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/288",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/289",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/296",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/298",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/299",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/30",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/301",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/303",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/32",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/37",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/38",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/39",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/40",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/49",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/59",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/60",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/63",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/65",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/68",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/75",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/78",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/81",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/87",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/93",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/95",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/96",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Thu_tuc_to_tung/98",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/10",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/100",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/101",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/103",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/104",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/105",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/107",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/11",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/110",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/111",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/113",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/114",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/116",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/118",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/119",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/12",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/120",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/123",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/124",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/125",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/126",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/127",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/13",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/130",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/131",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/132",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/133",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/134",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/136",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/138",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/139",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/14",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/141",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/142",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/144",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/145",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/146",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/147",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/148",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/149",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/150",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/151",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/152",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/153",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/154",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/155",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/156",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/157",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/159",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/16",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/160",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/161",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/162",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/164",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/165",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/166",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/17",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/18",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/19",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/2",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/20",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/25",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/26",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/27",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/28",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/29",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/3",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/30",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/33",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/34",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/35",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/36",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/38",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/39",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/4",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/40",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/41",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/42",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/44",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/46",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/47",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/49",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/5",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/50",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/51",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/52",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/53",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/54",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/55",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/56",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/58",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/59",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/60",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/61",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/62",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/65",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/66",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/68",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/69",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/7",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/70",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/71",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/72",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/73",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/74",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/77",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/80",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/81",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/82",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/83",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/84",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/88",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/89",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/9",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/90",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/91",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/92",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/93",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/94",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/95",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/97",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/98",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Trach_nhiem_hinh_su/99",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/1",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/100",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/102",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/108",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/109",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/11",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/111",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/112",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/116",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/117",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/118",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/12",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/120",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/121",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/124",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/126",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/128",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/129",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/13",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/131",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/134",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/135",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/138",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/139",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/14",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/141",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/144",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/145",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/146",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/147",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/155",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/157",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/16",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/163",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/164",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/165",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/166",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/167",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/168",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/169",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/170",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/172",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/173",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/174",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/175",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/176",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/179",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/181",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/182",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/183",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/185",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/186",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/188",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/189",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/196",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/198",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/203",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/204",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/207",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/208",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/211",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/212",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/215",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/22",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/222",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/23",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/237",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/239",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/242",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/244",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/245",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/246",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/25",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/250",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/251",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/252",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/267",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/27",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/274",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/276",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/278",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/279",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/28",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/281",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/283",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/284",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/285",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/287",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/289",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/291",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/295",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/297",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/298",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/299",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/3",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/303",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/304",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/307",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/31",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/310",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/313",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/314",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/317",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/318",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/319",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/32",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/324",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/327",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/33",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/333",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/334",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/336",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/338",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/339",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/347",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/349",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/35",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/354",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/359",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/360",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/361",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/37",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/371",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/372",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/374",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/377",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/379",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/38",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/381",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/384",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/385",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/386",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/387",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/39",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/390",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/391",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/393",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/396",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/399",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/40",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/404",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/408",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/41",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/411",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/417",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/419",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/42",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/420",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/422",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/424",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/425",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/427",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/428",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/43",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/431",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/433",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/435",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/439",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/440",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/442",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/45",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/455",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/459",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/460",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/462",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/466",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/469",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/473",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/479",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/48",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/483",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/486",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/487",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/488",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/489",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/491",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/494",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/496",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/499",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/5",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/500",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/502",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/503",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/504",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/505",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/506",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/507",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/509",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/51",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/52",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/54",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/56",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/60",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/61",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/65",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/68",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/69",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/70",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/73",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/74",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/79",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/80",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/82",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/83",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/85",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/89",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/9",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/90",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/93",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/94",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/97",
+      "rejected_over_1024": 0
+    },
+    {
+      "id": "Vi_pham_hanh_chinh/99",
+      "rejected_over_1024": 0
+    }
+  ]
+}

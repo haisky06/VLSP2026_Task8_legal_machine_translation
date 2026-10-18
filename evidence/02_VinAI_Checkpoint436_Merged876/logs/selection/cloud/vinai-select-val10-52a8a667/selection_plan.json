@@ -1,0 +1,78 @@
+{
+  "source_job": "vinai-chunk876-from60-d6738e41",
+  "validation_ids": [
+    "Bat_dong_san/93",
+    "Dich_vu_phap_ly/43",
+    "Quyen_dan_su/29",
+    "Quyen_dan_su/454",
+    "Quyen_dan_su/462",
+    "So_huu_tri_tue/169",
+    "Thu_tuc_to_tung/46",
+    "Trach_nhiem_hinh_su/140",
+    "Vi_pham_hanh_chinh/20",
+    "Vi_pham_hanh_chinh/315"
+  ],
+  "candidates": {
+    "best60": {
+      "spec": "/mnt/vinai/vinai-select-val10-52a8a667/candidates/best60/spec.json",
+      "snapshots": {
+        "vi-en": "/mnt/vinai/training_refine_v1/vi-en/model_final",
+        "en-vi": "/mnt/vinai/training_refine_v1/en-vi/model_final"
+      }
+    },
+    "checkpoint327": {
+      "spec": "/mnt/vinai/vinai-select-val10-52a8a667/candidates/checkpoint327/spec.json",
+      "snapshots": {
+        "vi-en": "/mnt/vinai/vinai-chunk876-from60-d6738e41/training/vi-en/checkpoint-327",
+        "en-vi": "/mnt/vinai/vinai-chunk876-from60-d6738e41/training/en-vi/checkpoint-327"
+      }
+    },
+    "checkpoint436": {
+      "spec": "/mnt/vinai/vinai-select-val10-52a8a667/candidates/checkpoint436/spec.json",
+      "snapshots": {
+        "vi-en": "/mnt/vinai/vinai-chunk876-from60-d6738e41/training/vi-en/checkpoint-436",
+        "en-vi": "/mnt/vinai/vinai-chunk876-from60-d6738e41/training/en-vi/checkpoint-436"
+      }
+    },
+    "checkpoint437": {
+      "spec": "/mnt/vinai/vinai-select-val10-52a8a667/candidates/checkpoint437/spec.json",
+      "snapshots": {
+        "vi-en": "/mnt/vinai/vinai-chunk876-from60-d6738e41/training/vi-en/checkpoint-437",
+        "en-vi": "/mnt/vinai/vinai-chunk876-from60-d6738e41/training/en-vi/checkpoint-437"
+      }
+    },
+    "final876": {
+      "spec": "/mnt/vinai/vinai-select-val10-52a8a667/candidates/final876/spec.json",
+      "snapshots": {
+        "vi-en": "/mnt/vinai/vinai-chunk876-from60-d6738e41/training/vi-en/model_final",
+        "en-vi": "/mnt/vinai/vinai-chunk876-from60-d6738e41/training/en-vi/model_final"
+      }
+    }
+  },
+  "checkpoint437_final_weight_hashes": {
+    "en-vi": {
+      "checkpoint437": {
+        "model.safetensors": "b77364f74da0061fa792d92fe90d0ee67a4a12c9337ee52ba0b85c3c36d1ad3a"
+      },
+      "final876": {
+        "model.safetensors": "b77364f74da0061fa792d92fe90d0ee67a4a12c9337ee52ba0b85c3c36d1ad3a"
+      }
+    },
+    "vi-en": {
+      "checkpoint437": {
+        "model.safetensors": "1ba16548880e3f04ad3ef601612a55ff33c5c88fb890a46125f09497a9a52d82"
+      },
+      "final876": {
+        "model.safetensors": "1ba16548880e3f04ad3ef601612a55ff33c5c88fb890a46125f09497a9a52d82"
+      }
+    }
+  },
+  "checkpoint437_equals_final": true,
+  "pending": [
+    "checkpoint327",
+    "checkpoint436"
+  ],
+  "selection_metric": "directional BLEU, chrF tie-break, deterministic candidate order",
+  "private_not_used_to_select": true,
+  "no_new_training": true
+}

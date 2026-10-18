@@ -1,0 +1,345 @@
+{
+  "documents": [
+    {
+      "sample_id": "Dich_vu_phap_ly/43",
+      "direction": "en-vi",
+      "baseline": {
+        "BLEU": 69.79022766980637,
+        "chrF": 80.30161324396782,
+        "length_ratio": 0.9034334763948498,
+        "numeric_recall": 0.9493670886075949
+      },
+      "selected": {
+        "BLEU": 67.92634172799094,
+        "chrF": 78.75689817156932,
+        "length_ratio": 0.8977110157367668,
+        "numeric_recall": 0.9493670886075949
+      },
+      "BLEU_delta": -1.8638859418154254
+    },
+    {
+      "sample_id": "Thu_tuc_to_tung/46",
+      "direction": "vi-en",
+      "baseline": {
+        "BLEU": 37.30639282869073,
+        "chrF": 70.69035309245376,
+        "length_ratio": 1.0531088082901554,
+        "numeric_recall": 0.9586776859504132
+      },
+      "selected": {
+        "BLEU": 36.478389747365554,
+        "chrF": 70.63378823689544,
+        "length_ratio": 1.0362694300518134,
+        "numeric_recall": 0.9421487603305785
+      },
+      "BLEU_delta": -0.8280030813251784
+    },
+    {
+      "sample_id": "Bat_dong_san/93",
+      "direction": "vi-en",
+      "baseline": {
+        "BLEU": 31.125615860330015,
+        "chrF": 75.35364482662146,
+        "length_ratio": 1.2298728813559323,
+        "numeric_recall": 0.9565217391304348
+      },
+      "selected": {
+        "BLEU": 30.425683119793952,
+        "chrF": 75.24545822170256,
+        "length_ratio": 1.2383474576271187,
+        "numeric_recall": 0.9565217391304348
+      },
+      "BLEU_delta": -0.6999327405360631
+    },
+    {
+      "sample_id": "So_huu_tri_tue/169",
+      "direction": "vi-en",
+      "baseline": {
+        "BLEU": 50.92705171994927,
+        "chrF": 83.25090802999068,
+        "length_ratio": 1.0186080392027017,
+        "numeric_recall": 0.9837837837837838
+      },
+      "selected": {
+        "BLEU": 50.52865039119792,
+        "chrF": 82.93379570074164,
+        "length_ratio": 1.0205946626051254,
+        "numeric_recall": 0.9891891891891892
+      },
+      "BLEU_delta": -0.3984013287513477
+    },
+    {
+      "sample_id": "Quyen_dan_su/462",
+      "direction": "en-vi",
+      "baseline": {
+        "BLEU": 47.107429326531815,
+        "chrF": 70.12281432005399,
+        "length_ratio": 0.9342492639842983,
+        "numeric_recall": 0.79
+      },
+      "selected": {
+        "BLEU": 47.040704127430544,
+        "chrF": 70.72968558325155,
+        "length_ratio": 0.9445534838076546,
+        "numeric_recall": 0.81
+      },
+      "BLEU_delta": -0.0667251991012705
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/315",
+      "direction": "en-vi",
+      "baseline": {
+        "BLEU": 72.2411882454317,
+        "chrF": 78.73742642725273,
+        "length_ratio": 1.1122448979591837,
+        "numeric_recall": 1.0
+      },
+      "selected": {
+        "BLEU": 72.2411882454317,
+        "chrF": 78.73742642725273,
+        "length_ratio": 1.1122448979591837,
+        "numeric_recall": 1.0
+      },
+      "BLEU_delta": 0.0
+    },
+    {
+      "sample_id": "Quyen_dan_su/29",
+      "direction": "vi-en",
+      "baseline": {
+        "BLEU": 52.84528017945809,
+        "chrF": 79.42368471408865,
+        "length_ratio": 1.0439808288694672,
+        "numeric_recall": 0.9651741293532339
+      },
+      "selected": {
+        "BLEU": 52.85200374712848,
+        "chrF": 79.41275117657848,
+        "length_ratio": 1.047082041161545,
+        "numeric_recall": 0.9552238805970149
+      },
+      "BLEU_delta": 0.0067235676703845115
+    },
+    {
+      "sample_id": "Bat_dong_san/93",
+      "direction": "en-vi",
+      "baseline": {
+        "BLEU": 57.6053924684366,
+        "chrF": 72.55841109541652,
+        "length_ratio": 0.8334726284997911,
+        "numeric_recall": 0.8522727272727273
+      },
+      "selected": {
+        "BLEU": 57.69418646865057,
+        "chrF": 72.76124998924045,
+        "length_ratio": 0.8340994567488508,
+        "numeric_recall": 0.8522727272727273
+      },
+      "BLEU_delta": 0.08879400021397288
+    },
+    {
+      "sample_id": "Quyen_dan_su/462",
+      "direction": "vi-en",
+      "baseline": {
+        "BLEU": 26.63412825328446,
+        "chrF": 70.41870878961808,
+        "length_ratio": 1.1080508474576272,
+        "numeric_recall": 0.9759036144578314
+      },
+      "selected": {
+        "BLEU": 26.727004716180613,
+        "chrF": 70.58776312063416,
+        "length_ratio": 1.1141041162227603,
+        "numeric_recall": 0.9759036144578314
+      },
+      "BLEU_delta": 0.09287646289615381
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/20",
+      "direction": "vi-en",
+      "baseline": {
+        "BLEU": 51.340624293679504,
+        "chrF": 80.76184116830525,
+        "length_ratio": 0.9711617436802239,
+        "numeric_recall": 0.988621997471555
+      },
+      "selected": {
+        "BLEU": 51.660619133222866,
+        "chrF": 81.03589717924328,
+        "length_ratio": 0.9653819243756274,
+        "numeric_recall": 0.9920986093552465
+      },
+      "BLEU_delta": 0.3199948395433623
+    },
+    {
+      "sample_id": "So_huu_tri_tue/169",
+      "direction": "en-vi",
+      "baseline": {
+        "BLEU": 60.145877012572164,
+        "chrF": 78.07168531752573,
+        "length_ratio": 0.9618251123627468,
+        "numeric_recall": 0.9446308724832215
+      },
+      "selected": {
+        "BLEU": 60.469720422398275,
+        "chrF": 78.25036844741912,
+        "length_ratio": 0.9615975422427036,
+        "numeric_recall": 0.9446308724832215
+      },
+      "BLEU_delta": 0.32384340982611093
+    },
+    {
+      "sample_id": "Trach_nhiem_hinh_su/140",
+      "direction": "vi-en",
+      "baseline": {
+        "BLEU": 42.34540311503741,
+        "chrF": 74.06287484632014,
+        "length_ratio": 1.0684491978609625,
+        "numeric_recall": 0.8721804511278195
+      },
+      "selected": {
+        "BLEU": 42.81626325502492,
+        "chrF": 75.07254635528014,
+        "length_ratio": 1.0844919786096257,
+        "numeric_recall": 0.8721804511278195
+      },
+      "BLEU_delta": 0.47086013998750786
+    },
+    {
+      "sample_id": "Quyen_dan_su/29",
+      "direction": "en-vi",
+      "baseline": {
+        "BLEU": 66.27089298879729,
+        "chrF": 79.19681905328679,
+        "length_ratio": 0.9416007445323407,
+        "numeric_recall": 0.9862385321100917
+      },
+      "selected": {
+        "BLEU": 66.93009274760483,
+        "chrF": 79.58271111691285,
+        "length_ratio": 0.9446254071661238,
+        "numeric_recall": 0.9862385321100917
+      },
+      "BLEU_delta": 0.6591997588075458
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/20",
+      "direction": "en-vi",
+      "baseline": {
+        "BLEU": 76.89739386033516,
+        "chrF": 88.91280341953147,
+        "length_ratio": 1.007803445878081,
+        "numeric_recall": 0.9865372573575454
+      },
+      "selected": {
+        "BLEU": 77.61239983549696,
+        "chrF": 89.2396265643768,
+        "length_ratio": 1.0041978933271525,
+        "numeric_recall": 0.9943644333124608
+      },
+      "BLEU_delta": 0.7150059751618016
+    },
+    {
+      "sample_id": "Dich_vu_phap_ly/43",
+      "direction": "vi-en",
+      "baseline": {
+        "BLEU": 38.6388040402852,
+        "chrF": 72.55090295832683,
+        "length_ratio": 1.12987012987013,
+        "numeric_recall": 1.0
+      },
+      "selected": {
+        "BLEU": 39.4707332414065,
+        "chrF": 72.33620775487798,
+        "length_ratio": 1.1288711288711288,
+        "numeric_recall": 1.0
+      },
+      "BLEU_delta": 0.831929201121298
+    },
+    {
+      "sample_id": "Trach_nhiem_hinh_su/140",
+      "direction": "en-vi",
+      "baseline": {
+        "BLEU": 63.33858512043241,
+        "chrF": 78.56326162304991,
+        "length_ratio": 1.0111008325624422,
+        "numeric_recall": 0.8888888888888888
+      },
+      "selected": {
+        "BLEU": 64.18858990410874,
+        "chrF": 78.98893904890036,
+        "length_ratio": 0.9842738205365402,
+        "numeric_recall": 0.8888888888888888
+      },
+      "BLEU_delta": 0.8500047836763258
+    },
+    {
+      "sample_id": "Thu_tuc_to_tung/46",
+      "direction": "en-vi",
+      "baseline": {
+        "BLEU": 63.793895993067004,
+        "chrF": 76.60224098906254,
+        "length_ratio": 0.8822905620360552,
+        "numeric_recall": 0.9402985074626866
+      },
+      "selected": {
+        "BLEU": 64.8118437109386,
+        "chrF": 77.28103938994944,
+        "length_ratio": 0.8873806998939555,
+        "numeric_recall": 0.9477611940298507
+      },
+      "BLEU_delta": 1.0179477178715999
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/315",
+      "direction": "vi-en",
+      "baseline": {
+        "BLEU": 80.70512775991622,
+        "chrF": 89.28468692789129,
+        "length_ratio": 1.0058479532163742,
+        "numeric_recall": 1.0
+      },
+      "selected": {
+        "BLEU": 81.75605840910704,
+        "chrF": 90.54197399413802,
+        "length_ratio": 1.0058479532163742,
+        "numeric_recall": 1.0
+      },
+      "BLEU_delta": 1.0509306491908177
+    },
+    {
+      "sample_id": "Quyen_dan_su/454",
+      "direction": "vi-en",
+      "baseline": {
+        "BLEU": 24.29795518647729,
+        "chrF": 64.2814971522068,
+        "length_ratio": 1.059157212317666,
+        "numeric_recall": 0.9285714285714286
+      },
+      "selected": {
+        "BLEU": 25.388956864723554,
+        "chrF": 64.98508842040052,
+        "length_ratio": 1.0551053484602917,
+        "numeric_recall": 0.9285714285714286
+      },
+      "BLEU_delta": 1.0910016782462648
+    },
+    {
+      "sample_id": "Quyen_dan_su/454",
+      "direction": "en-vi",
+      "baseline": {
+        "BLEU": 50.31487592904518,
+        "chrF": 72.61814476042564,
+        "length_ratio": 1.044078947368421,
+        "numeric_recall": 0.9375
+      },
+      "selected": {
+        "BLEU": 51.73845113323099,
+        "chrF": 73.03707067536402,
+        "length_ratio": 1.025,
+        "numeric_recall": 0.9375
+      },
+      "BLEU_delta": 1.4235752041858092
+    }
+  ],
+  "warning": "Number recall flags and score deltas require manual legal-meaning review, not semantic correctness certification."
+}

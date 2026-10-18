@@ -1,0 +1,21 @@
+{
+  "kind": "derived_score_extract",
+  "evaluation_pairs": 50,
+  "stage": "training_refine_v1 before merged876 training",
+  "scores": {
+    "vi-en": {
+      "BLEU": 47.556056392456455,
+      "chrF": 79.70461356512115
+    },
+    "en-vi": {
+      "BLEU": 72.61667965510776,
+      "chrF": 85.45687056535762
+    },
+    "macro": {
+      "BLEU": 60.08636802378211,
+      "chrF": 82.58074206523938
+    }
+  },
+  "source": "evidence/01_VinAI_Best60_Public50/logs/cloud/vinai-public-retry-2286028317/public_resume/result.json",
+  "source_sha256": "2d29ca6490c8c06f8217cfa404b9cb7ca2f4935f407380a1fcc473b12b1bfad9"
+}

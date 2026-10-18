@@ -1,0 +1,1 @@
+{"model": "sentence-transformers/LaBSE", "revision": "836121a0533e5664b21c7aacc5d22951f2b8b25b", "algorithm": "qwen_legal_anchors_semantic_dp_v6.0", "threshold": 0.62, "max_group": 3}

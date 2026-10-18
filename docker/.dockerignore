@@ -1,0 +1,11 @@
+.git/
+__pycache__/
+*.pyc
+**/*.download
+**/optimizer.pt
+**/scheduler.pt
+**/trainer_state.json
+**/training_args.bin
+**/rng_state*
+.env
+.modal.toml

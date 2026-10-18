@@ -1,0 +1,13 @@
+{
+  "model": "vinai/vinai-translate-vi2en-v2",
+  "revision": "ae7baa85da07dbe8e23ac26a9f5ef560c17e2138",
+  "data_sha": "642a632ebb8b4737d14bfc8037506d0d0c97341f9f5bbd3be35c718328637835",
+  "batch": 32,
+  "grad_accum": 4,
+  "epochs": 1,
+  "lr": 2e-05,
+  "max_tokens": 1024,
+  "precision": "FP32 master/BF16 autocast",
+  "batching": "length_sorted_buckets_v1",
+  "seed": 42
+}

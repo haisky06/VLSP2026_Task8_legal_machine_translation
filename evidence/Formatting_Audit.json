@@ -1,0 +1,1474 @@
+{
+  "schema_version": "rudeus_supporting_formatting_audit_v1",
+  "prepared_on": "2026-10-17",
+  "team": "Rudeus",
+  "selected_checkpoint": {
+    "en-vi": 436,
+    "vi-en": 436
+  },
+  "scope": "Historical private predictions from the selected step-436 models, not fresh Docker inference.",
+  "checks": {
+    "rows": 100,
+    "source_rows": 100,
+    "raw_rows": 100,
+    "columns": [
+      "sample_id",
+      "direction",
+      "translation"
+    ],
+    "duplicate_keys": 0,
+    "keys_match_source": true,
+    "empty_translations": 0,
+    "directions": {
+      "en-vi": 50,
+      "vi-en": 50
+    },
+    "envi_first": true,
+    "whitespace_token_identical_documents": 100,
+    "non_whitespace_identical_documents": 100,
+    "ordinary_internal_spaces_preserved_documents": 100,
+    "zip_members": [
+      "results.csv"
+    ],
+    "zip_csv_byte_identical": true,
+    "zip_crc_ok": true,
+    "final_csv_sha256": "e15f580d24b3c04bd9eec590c6fa692af34e29639da0f925c6485c264e45b06c",
+    "raw_csv_sha256": "5036ac8c7fc0607ec0e1b23f92d94068f3246fb13ec451c05d4bf8a2f559cf51",
+    "zip_sha256": "1dfdac3338e8a03d99ba659877b0189244ae8a7e8ad13ae16a70487080fa2a55",
+    "final_csv_bytes": 5596835,
+    "raw_csv_bytes": 5405115,
+    "zip_bytes": 1017854
+  },
+  "definitions": {
+    "whitespace_tokens_identical": "Python re.findall(r\"\\S+\", text) is identical in content and order before and after formatting.",
+    "non_whitespace_characters_identical": "Removing Python regex whitespace with re.sub(r\"\\s+\", \"\", text) yields identical character sequences, including digits and punctuation.",
+    "ordinary_internal_spaces_preserved": "For corresponding internal token gaps, compare equality only where neither old nor new gap contains CR/LF/tab or a run of two spaces. Layout gaps may change.",
+    "row_identity": "Compare unique (sample_id, direction) pairs with private source_language mapped en->en-vi and vi->vi-en.",
+    "content_preservation": "Relative to the raw VinAI translation, not a claim of source-faithful meaning or complete translation."
+  },
+  "private_input_partition": {
+    "chunks_by_direction": {
+      "en-vi": 964,
+      "vi-en": 1287
+    },
+    "raw_chunks_reconstruct_sources_exactly": true
+  },
+  "recorded_private_run": {
+    "safety_version": "exact_source_retry_v2",
+    "repaired_chunks": 4,
+    "retry_calls": 7,
+    "output_limit_reached": 1,
+    "unresolved_chunks": 0,
+    "documents": 100
+  },
+  "original_formatting_audit_summary": {
+    "submission": {
+      "rows": 100,
+      "columns": [
+        "sample_id",
+        "direction",
+        "translation"
+      ],
+      "zip": "/mnt/vinai/vinai-select-val10-52a8a667/private_formatted/vinai_private_submission.zip",
+      "sha256": "1dfdac3338e8a03d99ba659877b0189244ae8a7e8ad13ae16a70487080fa2a55",
+      "bytes": 1017854
+    },
+    "documents": 100,
+    "content_unchanged_documents": 100,
+    "raw_translation_untouched": true,
+    "raw_csv_sha256": "5036ac8c7fc0607ec0e1b23f92d94068f3246fb13ec451c05d4bf8a2f559cf51",
+    "reference_sha256": "aaf31673c2952a2e029343e279b668ee9c3fecbef2f71004dedfef52a42f59cd",
+    "method": "same Qwen layout transfer used on best60 private output",
+    "source_layout_exact": false,
+    "limitation": "Same-language anchor interpolation is not certification of exact source whitespace/cell semantic correspondence.",
+    "row_order": "50 EN->VI then 50 VI->EN"
+  },
+  "limitations": {
+    "exact_source_layout_certified": false,
+    "semantic_correctness_certified": false,
+    "every_source_span_correctly_translated_certified": false,
+    "private_reference_score_available": false,
+    "fresh_docker_prediction_byte_equivalence_certified": false
+  },
+  "scoring_recheck": {
+    "recomputed_from_saved_predictions": true,
+    "absolute_matching_tolerance": 1e-07,
+    "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+    "chrf_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.6.0",
+    "candidates": [
+      "best60",
+      "checkpoint327",
+      "checkpoint436",
+      "checkpoint437",
+      "final876"
+    ],
+    "no_training_or_generation_performed": true
+  },
+  "diagnostics_document_bleu_changes": {
+    "increased": 14,
+    "decreased": 5,
+    "unchanged": 1
+  },
+  "docker_weights_checked_against_manifest": [
+    {
+      "direction": "en-vi",
+      "checkpoint": 436,
+      "bytes": 1693126580,
+      "sha256": "ee5060c25ff558240a5000bee1fdabed7e947977e1bb3538bd4e5cbcb00c1f9b"
+    },
+    {
+      "direction": "vi-en",
+      "checkpoint": 436,
+      "bytes": 1693126580,
+      "sha256": "3a07e67057b17a726159622f5c22f589f11e836d6a6a7a8ab3556ed6f9f364a0"
+    }
+  ],
+  "per_document_checks": [
+    {
+      "sample_id": "Bat_dong_san/102",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 2390,
+      "original_newlines": 78,
+      "formatted_newlines": 2263
+    },
+    {
+      "sample_id": "Bat_dong_san/129",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 943,
+      "original_newlines": 26,
+      "formatted_newlines": 778
+    },
+    {
+      "sample_id": "Bat_dong_san/159",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 714,
+      "original_newlines": 15,
+      "formatted_newlines": 646
+    },
+    {
+      "sample_id": "Bat_dong_san/79",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 378,
+      "original_newlines": 10,
+      "formatted_newlines": 301
+    },
+    {
+      "sample_id": "Bat_dong_san/98",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 1433,
+      "original_newlines": 40,
+      "formatted_newlines": 1364
+    },
+    {
+      "sample_id": "Dich_vu_phap_ly/135",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 467,
+      "original_newlines": 9,
+      "formatted_newlines": 428
+    },
+    {
+      "sample_id": "Dich_vu_phap_ly/2",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 1968,
+      "original_newlines": 38,
+      "formatted_newlines": 1864
+    },
+    {
+      "sample_id": "Dich_vu_phap_ly/47",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 870,
+      "original_newlines": 18,
+      "formatted_newlines": 812
+    },
+    {
+      "sample_id": "Dich_vu_phap_ly/51",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 223,
+      "original_newlines": 5,
+      "formatted_newlines": 203
+    },
+    {
+      "sample_id": "Quyen_dan_su/102",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 556,
+      "original_newlines": 8,
+      "formatted_newlines": 508
+    },
+    {
+      "sample_id": "Quyen_dan_su/126",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 1249,
+      "original_newlines": 19,
+      "formatted_newlines": 1161
+    },
+    {
+      "sample_id": "Quyen_dan_su/198",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 1160,
+      "original_newlines": 28,
+      "formatted_newlines": 1020
+    },
+    {
+      "sample_id": "Quyen_dan_su/208",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 380,
+      "original_newlines": 10,
+      "formatted_newlines": 356
+    },
+    {
+      "sample_id": "Quyen_dan_su/237",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 122,
+      "original_newlines": 3,
+      "formatted_newlines": 105
+    },
+    {
+      "sample_id": "Quyen_dan_su/3",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 452,
+      "original_newlines": 13,
+      "formatted_newlines": 362
+    },
+    {
+      "sample_id": "Quyen_dan_su/312",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 147,
+      "original_newlines": 3,
+      "formatted_newlines": 133
+    },
+    {
+      "sample_id": "Quyen_dan_su/358",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 174,
+      "original_newlines": 4,
+      "formatted_newlines": 159
+    },
+    {
+      "sample_id": "Quyen_dan_su/409",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 240,
+      "original_newlines": 4,
+      "formatted_newlines": 226
+    },
+    {
+      "sample_id": "Quyen_dan_su/449",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 402,
+      "original_newlines": 11,
+      "formatted_newlines": 452
+    },
+    {
+      "sample_id": "Quyen_dan_su/461",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 248,
+      "original_newlines": 4,
+      "formatted_newlines": 241
+    },
+    {
+      "sample_id": "Quyen_dan_su/74",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 63,
+      "original_newlines": 2,
+      "formatted_newlines": 56
+    },
+    {
+      "sample_id": "So_huu_tri_tue/137",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 656,
+      "original_newlines": 18,
+      "formatted_newlines": 607
+    },
+    {
+      "sample_id": "So_huu_tri_tue/166",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 72,
+      "original_newlines": 2,
+      "formatted_newlines": 64
+    },
+    {
+      "sample_id": "So_huu_tri_tue/186",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 1224,
+      "original_newlines": 37,
+      "formatted_newlines": 1243
+    },
+    {
+      "sample_id": "So_huu_tri_tue/32",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 2584,
+      "original_newlines": 67,
+      "formatted_newlines": 2466
+    },
+    {
+      "sample_id": "So_huu_tri_tue/75",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 193,
+      "original_newlines": 4,
+      "formatted_newlines": 176
+    },
+    {
+      "sample_id": "Thu_tuc_to_tung/171",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 963,
+      "original_newlines": 21,
+      "formatted_newlines": 1027
+    },
+    {
+      "sample_id": "Thu_tuc_to_tung/182",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 217,
+      "original_newlines": 3,
+      "formatted_newlines": 206
+    },
+    {
+      "sample_id": "Thu_tuc_to_tung/302",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 100,
+      "original_newlines": 1,
+      "formatted_newlines": 94
+    },
+    {
+      "sample_id": "Thu_tuc_to_tung/70",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 345,
+      "original_newlines": 7,
+      "formatted_newlines": 318
+    },
+    {
+      "sample_id": "Thu_tuc_to_tung/92",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 125,
+      "original_newlines": 1,
+      "formatted_newlines": 100
+    },
+    {
+      "sample_id": "Trach_nhiem_hinh_su/106",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 36,
+      "original_newlines": 0,
+      "formatted_newlines": 34
+    },
+    {
+      "sample_id": "Trach_nhiem_hinh_su/109",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 205,
+      "original_newlines": 3,
+      "formatted_newlines": 156
+    },
+    {
+      "sample_id": "Trach_nhiem_hinh_su/15",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 5831,
+      "original_newlines": 158,
+      "formatted_newlines": 5441
+    },
+    {
+      "sample_id": "Trach_nhiem_hinh_su/43",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 252,
+      "original_newlines": 0,
+      "formatted_newlines": 236
+    },
+    {
+      "sample_id": "Trach_nhiem_hinh_su/57",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 369,
+      "original_newlines": 6,
+      "formatted_newlines": 306
+    },
+    {
+      "sample_id": "Trach_nhiem_hinh_su/78",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 1650,
+      "original_newlines": 29,
+      "formatted_newlines": 1505
+    },
+    {
+      "sample_id": "Trach_nhiem_hinh_su/87",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 390,
+      "original_newlines": 9,
+      "formatted_newlines": 409
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/123",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 355,
+      "original_newlines": 9,
+      "formatted_newlines": 333
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/216",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 303,
+      "original_newlines": 9,
+      "formatted_newlines": 334
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/308",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 501,
+      "original_newlines": 7,
+      "formatted_newlines": 475
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/325",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 377,
+      "original_newlines": 8,
+      "formatted_newlines": 350
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/353",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 33,
+      "original_newlines": 0,
+      "formatted_newlines": 28
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/376",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 1238,
+      "original_newlines": 37,
+      "formatted_newlines": 1139
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/388",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 686,
+      "original_newlines": 14,
+      "formatted_newlines": 754
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/414",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 772,
+      "original_newlines": 23,
+      "formatted_newlines": 686
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/426",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 35,
+      "original_newlines": 0,
+      "formatted_newlines": 30
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/463",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 960,
+      "original_newlines": 32,
+      "formatted_newlines": 860
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/492",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 1149,
+      "original_newlines": 28,
+      "formatted_newlines": 1072
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/497",
+      "direction": "en-vi",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 847,
+      "original_newlines": 16,
+      "formatted_newlines": 770
+    },
+    {
+      "sample_id": "Bat_dong_san/118",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 702,
+      "original_newlines": 19,
+      "formatted_newlines": 751
+    },
+    {
+      "sample_id": "Bat_dong_san/144",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 315,
+      "original_newlines": 6,
+      "formatted_newlines": 306
+    },
+    {
+      "sample_id": "Bat_dong_san/26",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 2285,
+      "original_newlines": 66,
+      "formatted_newlines": 2613
+    },
+    {
+      "sample_id": "Bat_dong_san/88",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 144,
+      "original_newlines": 3,
+      "formatted_newlines": 145
+    },
+    {
+      "sample_id": "Dich_vu_phap_ly/112",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 126,
+      "original_newlines": 3,
+      "formatted_newlines": 133
+    },
+    {
+      "sample_id": "Dich_vu_phap_ly/16",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 1895,
+      "original_newlines": 46,
+      "formatted_newlines": 1889
+    },
+    {
+      "sample_id": "Dich_vu_phap_ly/31",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 521,
+      "original_newlines": 10,
+      "formatted_newlines": 525
+    },
+    {
+      "sample_id": "Dich_vu_phap_ly/5",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 1487,
+      "original_newlines": 38,
+      "formatted_newlines": 1773
+    },
+    {
+      "sample_id": "Dich_vu_phap_ly/89",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 221,
+      "original_newlines": 3,
+      "formatted_newlines": 244
+    },
+    {
+      "sample_id": "Quyen_dan_su/11",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 1258,
+      "original_newlines": 29,
+      "formatted_newlines": 1296
+    },
+    {
+      "sample_id": "Quyen_dan_su/142",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 304,
+      "original_newlines": 3,
+      "formatted_newlines": 313
+    },
+    {
+      "sample_id": "Quyen_dan_su/20",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 567,
+      "original_newlines": 9,
+      "formatted_newlines": 571
+    },
+    {
+      "sample_id": "Quyen_dan_su/227",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 434,
+      "original_newlines": 13,
+      "formatted_newlines": 465
+    },
+    {
+      "sample_id": "Quyen_dan_su/240",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 551,
+      "original_newlines": 8,
+      "formatted_newlines": 598
+    },
+    {
+      "sample_id": "Quyen_dan_su/301",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 172,
+      "original_newlines": 5,
+      "formatted_newlines": 172
+    },
+    {
+      "sample_id": "Quyen_dan_su/356",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 370,
+      "original_newlines": 13,
+      "formatted_newlines": 385
+    },
+    {
+      "sample_id": "Quyen_dan_su/39",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 109,
+      "original_newlines": 3,
+      "formatted_newlines": 136
+    },
+    {
+      "sample_id": "Quyen_dan_su/414",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 37,
+      "original_newlines": 0,
+      "formatted_newlines": 34
+    },
+    {
+      "sample_id": "Quyen_dan_su/451",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 289,
+      "original_newlines": 8,
+      "formatted_newlines": 320
+    },
+    {
+      "sample_id": "Quyen_dan_su/66",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 803,
+      "original_newlines": 25,
+      "formatted_newlines": 821
+    },
+    {
+      "sample_id": "So_huu_tri_tue/110",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 86,
+      "original_newlines": 1,
+      "formatted_newlines": 98
+    },
+    {
+      "sample_id": "So_huu_tri_tue/160",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 85,
+      "original_newlines": 1,
+      "formatted_newlines": 88
+    },
+    {
+      "sample_id": "So_huu_tri_tue/180",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 506,
+      "original_newlines": 5,
+      "formatted_newlines": 525
+    },
+    {
+      "sample_id": "So_huu_tri_tue/28",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 66,
+      "original_newlines": 0,
+      "formatted_newlines": 93
+    },
+    {
+      "sample_id": "So_huu_tri_tue/67",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 680,
+      "original_newlines": 12,
+      "formatted_newlines": 631
+    },
+    {
+      "sample_id": "So_huu_tri_tue/9",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 1974,
+      "original_newlines": 68,
+      "formatted_newlines": 2560
+    },
+    {
+      "sample_id": "Thu_tuc_to_tung/177",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 1458,
+      "original_newlines": 38,
+      "formatted_newlines": 1490
+    },
+    {
+      "sample_id": "Thu_tuc_to_tung/229",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 143,
+      "original_newlines": 4,
+      "formatted_newlines": 137
+    },
+    {
+      "sample_id": "Thu_tuc_to_tung/35",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 291,
+      "original_newlines": 9,
+      "formatted_newlines": 299
+    },
+    {
+      "sample_id": "Thu_tuc_to_tung/76",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 419,
+      "original_newlines": 11,
+      "formatted_newlines": 551
+    },
+    {
+      "sample_id": "Trach_nhiem_hinh_su/102",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 415,
+      "original_newlines": 4,
+      "formatted_newlines": 445
+    },
+    {
+      "sample_id": "Trach_nhiem_hinh_su/108",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 842,
+      "original_newlines": 11,
+      "formatted_newlines": 842
+    },
+    {
+      "sample_id": "Trach_nhiem_hinh_su/143",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 225,
+      "original_newlines": 8,
+      "formatted_newlines": 236
+    },
+    {
+      "sample_id": "Trach_nhiem_hinh_su/22",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 4944,
+      "original_newlines": 137,
+      "formatted_newlines": 5228
+    },
+    {
+      "sample_id": "Trach_nhiem_hinh_su/45",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 332,
+      "original_newlines": 5,
+      "formatted_newlines": 359
+    },
+    {
+      "sample_id": "Trach_nhiem_hinh_su/64",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 191,
+      "original_newlines": 5,
+      "formatted_newlines": 175
+    },
+    {
+      "sample_id": "Trach_nhiem_hinh_su/79",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 154,
+      "original_newlines": 2,
+      "formatted_newlines": 171
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/101",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 7677,
+      "original_newlines": 257,
+      "formatted_newlines": 7312
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/180",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 3160,
+      "original_newlines": 90,
+      "formatted_newlines": 2904
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/247",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 1905,
+      "original_newlines": 55,
+      "formatted_newlines": 1864
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/312",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 649,
+      "original_newlines": 14,
+      "formatted_newlines": 656
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/346",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 825,
+      "original_newlines": 20,
+      "formatted_newlines": 876
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/375",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 506,
+      "original_newlines": 11,
+      "formatted_newlines": 625
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/378",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 961,
+      "original_newlines": 18,
+      "formatted_newlines": 967
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/402",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 441,
+      "original_newlines": 12,
+      "formatted_newlines": 428
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/418",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 746,
+      "original_newlines": 23,
+      "formatted_newlines": 833
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/445",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 715,
+      "original_newlines": 20,
+      "formatted_newlines": 718
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/485",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 689,
+      "original_newlines": 11,
+      "formatted_newlines": 680
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/493",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 632,
+      "original_newlines": 15,
+      "formatted_newlines": 635
+    },
+    {
+      "sample_id": "Vi_pham_hanh_chinh/62",
+      "direction": "vi-en",
+      "whitespace_tokens_identical": true,
+      "non_whitespace_characters_identical": true,
+      "ordinary_internal_spaces_preserved": true,
+      "source_newlines": 754,
+      "original_newlines": 25,
+      "formatted_newlines": 829
+    }
+  ],
+  "evidence_files": {
+    "data_split": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "data/merged_public40_split_v1.json",
+      "bytes": 50370,
+      "sha256": "508fb234492fbf5ab3714426d952320ed8de838bab3ac1d8aec39036952c0c34",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/data/merged_public40_split_v1.json"
+    },
+    "original_split": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "data/training_data_manifest.json",
+      "bytes": 23460,
+      "sha256": "d1bfc5683c2d8c0b4381db980dd39d7e702b07682c9caa8eaa79690c6391929c",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/data/training_data_manifest.json"
+    },
+    "alignment_model": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "data/merged_preparation/prepared/alignment_model.json",
+      "bytes": 183,
+      "sha256": "abc8b39bbdc7f4fc8adc9a67e62fb7d400c447d1a77a9c7c82710f51da916ce2",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/data/merged_preparation/prepared/alignment_model.json"
+    },
+    "prepared_training_audit": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "logs/training/cloud/vinai-chunk876-from60-d6738e41/prepared/audit.json",
+      "bytes": 68623,
+      "sha256": "cbdd900ffb7022523662cc938aba36d5ffb5743d5c27ef2024402a9525098782",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/logs/training/cloud/vinai-chunk876-from60-d6738e41/prepared/audit.json"
+    },
+    "checkpoint_selection_report": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "logs/selection/cloud/vinai-select-val10-52a8a667/checkpoint_selection_report.json",
+      "bytes": 2172,
+      "sha256": "554ba2416fde465f2edf03a03e537c565ff9cfe74104f9cfd9f80c710484741d",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/logs/selection/cloud/vinai-select-val10-52a8a667/checkpoint_selection_report.json"
+    },
+    "selection_plan": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "logs/selection/cloud/vinai-select-val10-52a8a667/selection_plan.json",
+      "bytes": 2799,
+      "sha256": "feb11f70e24ee3536db5e0a2f5d876cb6d4d5bd928313956b2ed3acc921cee92",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/logs/selection/cloud/vinai-select-val10-52a8a667/selection_plan.json"
+    },
+    "document_diagnostics": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "logs/selection/cloud/vinai-select-val10-52a8a667/selected_document_diagnostics.json",
+      "bytes": 9935,
+      "sha256": "43afa0461e3ca926be407fae9fef85fb551d84b93c1bc860e03196030fd736e4",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/logs/selection/cloud/vinai-select-val10-52a8a667/selected_document_diagnostics.json"
+    },
+    "original_formatting_audit": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "logs/selection/cloud/vinai-select-val10-52a8a667/private_formatted/formatting_audit.json",
+      "bytes": 207632,
+      "sha256": "098919cb77cbd828a344380bdfbca14b16950be08885eb47bd5c42d159ff3aa4",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/logs/selection/cloud/vinai-select-val10-52a8a667/private_formatted/formatting_audit.json"
+    },
+    "private_inference_summary": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "logs/selection/cloud/vinai-select-val10-52a8a667/private_chunk/result.json",
+      "bytes": 90162,
+      "sha256": "8176ffc2fd833499223bc278e27147a0aaa3d5866d2b21706e28b6b916e141fc",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/logs/selection/cloud/vinai-select-val10-52a8a667/private_chunk/result.json"
+    },
+    "prepared_private_chunks": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "logs/selection_extra/cloud/vinai-select-val10-52a8a667/prepared_private_chunk.json",
+      "bytes": 11748621,
+      "sha256": "2df507922ab8695c7d95bc676a30a27a150fe6740a5e7f446ac29b41a97d162b",
+      "included_in_evidence": false,
+      "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+    },
+    "prepared_validation_chunks": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "logs/selection_extra/cloud/vinai-select-val10-52a8a667/prepared_validation_chunk.json",
+      "bytes": 2584315,
+      "sha256": "c2f796581fe56e1f9fc0c8da6815b814d84bbbd901fe682f288dcc90b1501e32",
+      "included_in_evidence": false,
+      "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+    },
+    "raw_private_csv": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "history/raw_private/raw_chunk_results.csv",
+      "bytes": 5405115,
+      "sha256": "5036ac8c7fc0607ec0e1b23f92d94068f3246fb13ec451c05d4bf8a2f559cf51",
+      "included_in_evidence": false,
+      "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+    },
+    "private_source_csv": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "data/private_test_input.csv",
+      "bytes": 5668795,
+      "sha256": "c54f69f997aff2d7d2f1b864fee7fd448257a6f17f6c90b30f209d811f7fd438",
+      "included_in_evidence": false,
+      "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+    },
+    "qwen_layout_reference": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "formatting_reference/qwen17_layout_reference.csv",
+      "bytes": 5476442,
+      "sha256": "aaf31673c2952a2e029343e279b668ee9c3fecbef2f71004dedfef52a42f59cd",
+      "included_in_evidence": false,
+      "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+    },
+    "final_private_csv": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "submission/results.csv",
+      "bytes": 5596835,
+      "sha256": "e15f580d24b3c04bd9eec590c6fa692af34e29639da0f925c6485c264e45b06c",
+      "included_in_evidence": false,
+      "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+    },
+    "final_private_zip": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "submission/vinai_private_submission.zip",
+      "bytes": 1017854,
+      "sha256": "1dfdac3338e8a03d99ba659877b0189244ae8a7e8ad13ae16a70487080fa2a55",
+      "included_in_evidence": false,
+      "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+    },
+    "public50_historical_scores": {
+      "reference_root": "01_VinAI_Best60_Public50",
+      "relative_path": "logs/cloud/vinai-public-retry-2286028317/public_resume/result.json",
+      "bytes": 87143,
+      "sha256": "2d29ca6490c8c06f8217cfa404b9cb7ca2f4935f407380a1fcc473b12b1bfad9",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/01_VinAI_Best60_Public50/logs/cloud/vinai-public-retry-2286028317/public_resume/result.json"
+    },
+    "docker_model_manifest": {
+      "reference_root": "Rudeus_Docker",
+      "relative_path": "models/manifest.json",
+      "bytes": 2267,
+      "sha256": "f2ced51f7e27d20d8f7affa0e32ba88b9da899fefda166e71b19ea0e38fbcc18",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/Rudeus_Docker/models/manifest.json"
+    },
+    "source_prepare_merged_training.py": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "source_code/vinai_modal/prepare_merged_training.py",
+      "bytes": 6902,
+      "sha256": "62ac42a5d319194473afc2e2a119438def077de69bc54983b57b8953e91522aa",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/source_code/vinai_modal/prepare_merged_training.py"
+    },
+    "source_prepare_training.py": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "source_code/vinai_modal/prepare_training.py",
+      "bytes": 5507,
+      "sha256": "519d32112e19d6fbbc070a914a439289b8cd6b9df2d71836b3d30974c90ace39",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/source_code/vinai_modal/prepare_training.py"
+    },
+    "source_legal_alignment_core.py": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "source_code/vinai_modal/legal_alignment_core.py",
+      "bytes": 24530,
+      "sha256": "e4c6fa9ff871379724869d47ef5b3e9a41ed69cb3b24360a8f9a9df64ea9c332",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/source_code/vinai_modal/legal_alignment_core.py"
+    },
+    "source_train.py": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "source_code/vinai_modal/train.py",
+      "bytes": 6502,
+      "sha256": "1bfa3581ad766ded90255540752110acd41a2225695a9a00abadf45f2cd3cae4",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/source_code/vinai_modal/train.py"
+    },
+    "source_chunk876_app.py": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "source_code/vinai_modal/chunk876_app.py",
+      "bytes": 9669,
+      "sha256": "32a4c67bd6658bb03f390ba94b2b80f8640a365de67d9a93253a472a5e19d3f6",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/source_code/vinai_modal/chunk876_app.py"
+    },
+    "source_prepare_chunk_eval.py": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "source_code/vinai_modal/prepare_chunk_eval.py",
+      "bytes": 3222,
+      "sha256": "a73a3ec92288d03858679d6fed9b2dd982e0956c10f339db155a3bfe1e95b738",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/source_code/vinai_modal/prepare_chunk_eval.py"
+    },
+    "source_public_worker.py": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "source_code/vinai_modal/public_worker.py",
+      "bytes": 14009,
+      "sha256": "5f91f764b1ac43cc414fc2b5cae38dd56bc7e9d5fad8097dfd868279fa2963f4",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/source_code/vinai_modal/public_worker.py"
+    },
+    "source_chunk_safety_v2.py": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "source_code/vinai_modal/chunk_safety_v2.py",
+      "bytes": 4755,
+      "sha256": "8f8825219c07725fc606586b49e7923c440b4c8131899e002c1f038faa36cd3b",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/source_code/vinai_modal/chunk_safety_v2.py"
+    },
+    "source_checkpoint_selection.py": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "source_code/vinai_modal/checkpoint_selection.py",
+      "bytes": 8220,
+      "sha256": "d544250ecc3b90207352d0c87ba0d9668453dc2f4b37c0f5f43e30ddc21db464",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/source_code/vinai_modal/checkpoint_selection.py"
+    },
+    "source_postformat_chunk_private.py": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "source_code/vinai_modal/postformat_chunk_private.py",
+      "bytes": 3018,
+      "sha256": "193eeb6b7b426e310aadc581a7cd192c9c7d5ca97c22c897c3dba85cfd4d8caf",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/source_code/vinai_modal/postformat_chunk_private.py"
+    },
+    "source_restore_from_qwen_layout.py": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "source_code/vinai_modal/restore_from_qwen_layout.py",
+      "bytes": 12363,
+      "sha256": "e319a3730ac4225dcfb871bae91f7642583c2b8962d20acc8b699ef665e39ff4",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/source_code/vinai_modal/restore_from_qwen_layout.py"
+    },
+    "merged_train_plan_en-vi": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "logs/training/cloud/vinai-chunk876-from60-d6738e41/training/en-vi/train_plan.json",
+      "bytes": 495,
+      "sha256": "d94735dde6e464ab275de630769f89f0c28661bb5bb65ec398a73c66a0594796",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/logs/training/cloud/vinai-chunk876-from60-d6738e41/training/en-vi/train_plan.json"
+    },
+    "selected_trainer_state_en-vi": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "logs/training/cloud/vinai-chunk876-from60-d6738e41/training/en-vi/checkpoint-436/trainer_state.json",
+      "bytes": 4673,
+      "sha256": "f61392c02ed01e41422dfc443652ecbc61b8fb2bb4560afe65cedb0d9ad497d3",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/logs/training/cloud/vinai-chunk876-from60-d6738e41/training/en-vi/checkpoint-436/trainer_state.json"
+    },
+    "training_plan_en-vi": {
+      "reference_root": "01_VinAI_Best60_Public50",
+      "relative_path": "logs/cloud/training/en-vi/train_plan.json",
+      "bytes": 373,
+      "sha256": "3363c22728689a51b89aa297ea06aea6955e199242bb9065be94a890477ae861",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/01_VinAI_Best60_Public50/logs/cloud/training/en-vi/train_plan.json"
+    },
+    "training_refine_v1_plan_en-vi": {
+      "reference_root": "01_VinAI_Best60_Public50",
+      "relative_path": "logs/cloud/training_refine_v1/en-vi/train_plan.json",
+      "bytes": 485,
+      "sha256": "07525d99b0214f0f2ce38ed2f8c83a1368a831cd67d62e3a190ce984cb040939",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/01_VinAI_Best60_Public50/logs/cloud/training_refine_v1/en-vi/train_plan.json"
+    },
+    "merged_train_plan_vi-en": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "logs/training/cloud/vinai-chunk876-from60-d6738e41/training/vi-en/train_plan.json",
+      "bytes": 495,
+      "sha256": "c4633c0657e1cdeb9546cd18249b0c698eb81493eb32e1a578707460f225a900",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/logs/training/cloud/vinai-chunk876-from60-d6738e41/training/vi-en/train_plan.json"
+    },
+    "selected_trainer_state_vi-en": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "logs/training/cloud/vinai-chunk876-from60-d6738e41/training/vi-en/checkpoint-436/trainer_state.json",
+      "bytes": 4671,
+      "sha256": "13dae128cf533d67310b96c286f14c5fddf108b0cd21abd9673f64b54c03212b",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/02_VinAI_Checkpoint436_Merged876/logs/training/cloud/vinai-chunk876-from60-d6738e41/training/vi-en/checkpoint-436/trainer_state.json"
+    },
+    "training_plan_vi-en": {
+      "reference_root": "01_VinAI_Best60_Public50",
+      "relative_path": "logs/cloud/training/vi-en/train_plan.json",
+      "bytes": 373,
+      "sha256": "4aaa5398034160290391d1bab2ee117bbc9a33907973f7bd4d8ae8ef2769578d",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/01_VinAI_Best60_Public50/logs/cloud/training/vi-en/train_plan.json"
+    },
+    "training_refine_v1_plan_vi-en": {
+      "reference_root": "01_VinAI_Best60_Public50",
+      "relative_path": "logs/cloud/training_refine_v1/vi-en/train_plan.json",
+      "bytes": 485,
+      "sha256": "6c3f52b9ab29f8b9b439026f5ca3ab806eb0763fd4a6551f193a75b6f525f575",
+      "included_in_evidence": true,
+      "packaged_path": "Evidence/01_VinAI_Best60_Public50/logs/cloud/training_refine_v1/vi-en/train_plan.json"
+    },
+    "validation_predictions_best60": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "logs/selection/cloud/vinai-select-val10-52a8a667/candidates/best60/translations.json",
+      "bytes": 776965,
+      "sha256": "dcb6826511097b2e13f673041f30d9ee2d76eec0f828eb709ab9229aa80d404f",
+      "included_in_evidence": false,
+      "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+    },
+    "validation_predictions_checkpoint327": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "logs/selection/cloud/vinai-select-val10-52a8a667/candidates/checkpoint327/translations.json",
+      "bytes": 775076,
+      "sha256": "6066316b1e6d6c9915f39d6c1386e74deeabf3e3d968cf2f0ae2ed3fda4c8001",
+      "included_in_evidence": false,
+      "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+    },
+    "validation_predictions_checkpoint436": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "logs/selection/cloud/vinai-select-val10-52a8a667/candidates/checkpoint436/translations.json",
+      "bytes": 775372,
+      "sha256": "36f699a52fe834e53417e33f2df3a1b3a4f88ed9b237c09d78a6c5222273e38b",
+      "included_in_evidence": false,
+      "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+    },
+    "validation_predictions_checkpoint437": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "logs/selection/cloud/vinai-select-val10-52a8a667/candidates/checkpoint437/translations.json",
+      "bytes": 777434,
+      "sha256": "7fd6a9d01287fca9052074df2c71af11acb86f1aa0d2dad60b6cf611ca3cf6ab",
+      "included_in_evidence": false,
+      "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+    },
+    "validation_predictions_final876": {
+      "reference_root": "02_VinAI_Checkpoint436_Merged876",
+      "relative_path": "logs/selection/cloud/vinai-select-val10-52a8a667/candidates/final876/translations.json",
+      "bytes": 777434,
+      "sha256": "7fd6a9d01287fca9052074df2c71af11acb86f1aa0d2dad60b6cf611ca3cf6ab",
+      "included_in_evidence": false,
+      "exclusion_reason": "Contains full source/reference/prediction text or duplicates the private predictions package; intentionally not included in this metadata/source evidence bundle."
+    }
+  },
+  "evidence_bundle_policy": {
+    "metadata_and_source_only": true,
+    "full_document_text_included": false,
+    "actual_weights_included": false,
+    "full_reproduction_without_omitted_files": false,
+    "index": "Evidence/README.md",
+    "manifest": "Evidence/Evidence_Manifest.json"
+  }
+}

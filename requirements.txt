@@ -1,0 +1,12 @@
+# Core historical training/evaluation dependencies. GPU provisioning is user-managed.
+torch==2.14.1
+transformers==5.17.0
+accelerate>=1.10,<2
+sentence-transformers
+sentencepiece
+protobuf>=5,<8
+numpy
+psutil
+nvidia-ml-py
+sacrebleu==2.6.0
+# HTTP serving dependencies are separately listed in docker/requirements.txt.

@@ -1,0 +1,96 @@
+{
+  "candidates": {
+    "best60": {
+      "en-vi": {
+        "BLEU": 68.8201597170907,
+        "chrF": 82.73981666940817
+      },
+      "vi-en": {
+        "BLEU": 48.260999252609324,
+        "chrF": 79.45867781967593
+      },
+      "macro": {
+        "BLEU": 58.540579484850014,
+        "chrF": 81.09924724454206
+      }
+    },
+    "checkpoint327": {
+      "en-vi": {
+        "BLEU": 68.87060156403591,
+        "chrF": 82.75959985020901
+      },
+      "vi-en": {
+        "BLEU": 47.99891762543494,
+        "chrF": 79.44809773315895
+      },
+      "macro": {
+        "BLEU": 58.434759594735425,
+        "chrF": 81.10384879168399
+      }
+    },
+    "checkpoint436": {
+      "en-vi": {
+        "BLEU": 69.18647507908824,
+        "chrF": 83.03045003901546
+      },
+      "vi-en": {
+        "BLEU": 48.45130278270979,
+        "chrF": 79.5500627546952
+      },
+      "macro": {
+        "BLEU": 58.818888930899014,
+        "chrF": 81.29025639685534
+      }
+    },
+    "checkpoint437": {
+      "en-vi": {
+        "BLEU": 69.17539068538476,
+        "chrF": 83.01304862100922
+      },
+      "vi-en": {
+        "BLEU": 47.98225159319644,
+        "chrF": 79.3439503799824
+      },
+      "macro": {
+        "BLEU": 58.578821139290596,
+        "chrF": 81.1784995004958
+      }
+    },
+    "final876": {
+      "en-vi": {
+        "BLEU": 69.17539068538476,
+        "chrF": 83.01304862100922
+      },
+      "vi-en": {
+        "BLEU": 47.98225159319644,
+        "chrF": 79.3439503799824
+      },
+      "macro": {
+        "BLEU": 58.578821139290596,
+        "chrF": 81.1784995004958
+      }
+    }
+  },
+  "selected": {
+    "en-vi": "checkpoint436",
+    "vi-en": "checkpoint436"
+  },
+  "selected_scores": {
+    "en-vi": {
+      "BLEU": 69.18647507908824,
+      "chrF": 83.03045003901546
+    },
+    "vi-en": {
+      "BLEU": 48.45130278270979,
+      "chrF": 79.5500627546952
+    },
+    "macro": {
+      "BLEU": 58.818888930899014,
+      "chrF": 81.29025639685534
+    }
+  },
+  "validation_pairs": 10,
+  "no_new_training": true,
+  "private_not_used_to_select": true,
+  "limitation": "Validation-selected score, not an unbiased test score; small val and multiple candidates can overfit selection."
+}

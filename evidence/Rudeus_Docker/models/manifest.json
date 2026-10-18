@@ -1,0 +1,76 @@
+{
+  "team": "Rudeus",
+  "method": "VinAI-LegalMT",
+  "files": [
+    {
+      "file": "en-vi/config.json",
+      "bytes": 1428,
+      "sha256": "4dd71a22047ac8c17ae21e8480438881e7ba4bd8ce2925af34dc184900466040",
+      "checkpoint": 436,
+      "direction": "en-vi"
+    },
+    {
+      "file": "en-vi/generation_config.json",
+      "bytes": 210,
+      "sha256": "a0a04e321f720e51af295a4cf9bc712e6321cd8be1411fb24393af3e7dc1b1f8",
+      "checkpoint": 436,
+      "direction": "en-vi"
+    },
+    {
+      "file": "en-vi/tokenizer_config.json",
+      "bytes": 774,
+      "sha256": "ba7083333697e8e1ae9fa0a7cec92adc06f1575b9b16c3eab0571878526e8181",
+      "checkpoint": 436,
+      "direction": "en-vi"
+    },
+    {
+      "file": "en-vi/tokenizer.json",
+      "bytes": 4237477,
+      "sha256": "b93e18d1c46bfd7eb728ae832c3b53dcfe9f37415c054f1f40511e8241eebdde",
+      "checkpoint": 436,
+      "direction": "en-vi"
+    },
+    {
+      "file": "en-vi/model.safetensors",
+      "bytes": 1693126580,
+      "sha256": "ee5060c25ff558240a5000bee1fdabed7e947977e1bb3538bd4e5cbcb00c1f9b",
+      "checkpoint": 436,
+      "direction": "en-vi"
+    },
+    {
+      "file": "vi-en/config.json",
+      "bytes": 1428,
+      "sha256": "2230dc162d94418c4cc5c9bf1972b55e78fdd5f15a20e79a1863972293c3a874",
+      "checkpoint": 436,
+      "direction": "vi-en"
+    },
+    {
+      "file": "vi-en/generation_config.json",
+      "bytes": 210,
+      "sha256": "a0a04e321f720e51af295a4cf9bc712e6321cd8be1411fb24393af3e7dc1b1f8",
+      "checkpoint": 436,
+      "direction": "vi-en"
+    },
+    {
+      "file": "vi-en/tokenizer_config.json",
+      "bytes": 774,
+      "sha256": "a1e1e17786640affb24aa418ac72ddc01ef122e8491d293980743ffdd5a392f5",
+      "checkpoint": 436,
+      "direction": "vi-en"
+    },
+    {
+      "file": "vi-en/tokenizer.json",
+      "bytes": 4237477,
+      "sha256": "e44f6f8338a30a8e2e2f1bab5fecb2f2cdb4ddfd61c687805f8684774dd4c470",
+      "checkpoint": 436,
+      "direction": "vi-en"
+    },
+    {
+      "file": "vi-en/model.safetensors",
+      "bytes": 1693126580,
+      "sha256": "3a07e67057b17a726159622f5c22f589f11e836d6a6a7a8ab3556ed6f9f364a0",
+      "checkpoint": 436,
+      "direction": "vi-en"
+    }
+  ]
+}

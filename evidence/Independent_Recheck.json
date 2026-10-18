@@ -1,0 +1,95 @@
+{
+  "prepared_on": "2026-10-17",
+  "kind": "derived_independent_check",
+  "method": "CPU SacreBLEU recomputation from archived predictions and saved val10 references. No training or generation.",
+  "recomputed": true,
+  "absolute_matching_tolerance": 1e-07,
+  "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+  "chrf_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.6.0",
+  "scores": {
+    "best60": {
+      "en-vi": {
+        "BLEU": 68.82015971709063,
+        "chrF": 82.73981666940817
+      },
+      "vi-en": {
+        "BLEU": 48.260999252609345,
+        "chrF": 79.45867781967593
+      }
+    },
+    "checkpoint327": {
+      "en-vi": {
+        "BLEU": 68.87060156403584,
+        "chrF": 82.75959985020901
+      },
+      "vi-en": {
+        "BLEU": 47.99891762543492,
+        "chrF": 79.44809773315895
+      }
+    },
+    "checkpoint436": {
+      "en-vi": {
+        "BLEU": 69.18647507908824,
+        "chrF": 83.03045003901546
+      },
+      "vi-en": {
+        "BLEU": 48.45130278270979,
+        "chrF": 79.5500627546952
+      }
+    },
+    "checkpoint437": {
+      "en-vi": {
+        "BLEU": 69.17539068538476,
+        "chrF": 83.01304862100922
+      },
+      "vi-en": {
+        "BLEU": 47.98225159319646,
+        "chrF": 79.3439503799824
+      }
+    },
+    "final876": {
+      "en-vi": {
+        "BLEU": 69.17539068538476,
+        "chrF": 83.01304862100922
+      },
+      "vi-en": {
+        "BLEU": 47.98225159319646,
+        "chrF": 79.3439503799824
+      }
+    }
+  },
+  "private_file_checks": {
+    "rows": 100,
+    "source_rows": 100,
+    "raw_rows": 100,
+    "columns": [
+      "sample_id",
+      "direction",
+      "translation"
+    ],
+    "duplicate_keys": 0,
+    "keys_match_source": true,
+    "empty_translations": 0,
+    "directions": {
+      "en-vi": 50,
+      "vi-en": 50
+    },
+    "envi_first": true,
+    "whitespace_token_identical_documents": 100,
+    "non_whitespace_identical_documents": 100,
+    "ordinary_internal_spaces_preserved_documents": 100,
+    "zip_members": [
+      "results.csv"
+    ],
+    "zip_csv_byte_identical": true,
+    "zip_crc_ok": true,
+    "final_csv_sha256": "e15f580d24b3c04bd9eec590c6fa692af34e29639da0f925c6485c264e45b06c",
+    "raw_csv_sha256": "5036ac8c7fc0607ec0e1b23f92d94068f3246fb13ec451c05d4bf8a2f559cf51",
+    "zip_sha256": "1dfdac3338e8a03d99ba659877b0189244ae8a7e8ad13ae16a70487080fa2a55",
+    "final_csv_bytes": 5596835,
+    "raw_csv_bytes": 5405115,
+    "zip_bytes": 1017854
+  },
+  "source_partitions_exact": true,
+  "limitation": "Underlying document texts are deliberately excluded. This derived report alone cannot enable independent rescoring without authorized access to those texts."
+}

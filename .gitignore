@@ -1,0 +1,33 @@
+# Secrets and local environments
+.env
+.env.*
+!.env.example
+.modal.toml
+secrets/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+# Weights, checkpoints and caches
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+hf_cache/
+# Generated artifacts
+*.tar
+*.tar.gz
+*.zip
+outputs/
+# Restricted datasets / full predictions
+data/*
+!data/README.md
+models/*
+!models/README.md
+!models/manifest.json
+docker/models/
+# Local reference included for review, NOT cleared for public distribution
+formatting_reference/*.csv

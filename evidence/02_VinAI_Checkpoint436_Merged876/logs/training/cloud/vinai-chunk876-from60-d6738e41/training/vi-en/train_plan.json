@@ -1,0 +1,15 @@
+{
+  "model": "vinai/vinai-translate-vi2en-v2",
+  "revision": "ae7baa85da07dbe8e23ac26a9f5ef560c17e2138",
+  "data_sha": "94b54066f04802dbe77ff34c77ec3ac09235ce8b7834e37b7eb9bf32c545f7a9",
+  "batch": 32,
+  "grad_accum": 4,
+  "epochs": 1,
+  "lr": 5e-06,
+  "max_tokens": 1024,
+  "precision": "FP32 master/BF16 autocast",
+  "init_name": "training_refine_v1",
+  "initial_sha": "4ae71c4901d3976fd79d5665a747ae6630f3d894b2054725d5d0bbbf5274a710",
+  "batching": "length_sorted_buckets_v1",
+  "seed": 42
+}
